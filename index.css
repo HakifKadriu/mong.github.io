@@ -1,0 +1,44 @@
+body{
+    background-image: url('images/bg_wallpaper_dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hyrja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+
+}
+#permbajtja{
+    margin-top: 50px;
+}
+
+#permbajtja .col-4 {
+    overflow-wrap: break-word; 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.permbajtja_titujt{
+    font-size: 24px;
+}
+.permbajtja_titujt a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+.permbajtja_titujt a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0;
+}
+
+#permbajtja p{
+    margin: 0;
+}
+.linkslist{
+    font-size: 13px;
+}
